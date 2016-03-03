@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5832D9101C75A06500FCBFD5 /* chamomile-tea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5832D90F1C75A06500FCBFD5 /* chamomile-tea.jpg */; };
 		5832D9121C75A0BC00FCBFD5 /* -shared-img-thumb-ELL54_kamomiru_TP_V.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5832D9111C75A0BC00FCBFD5 /* -shared-img-thumb-ELL54_kamomiru_TP_V.jpg */; };
 		5832D94C1C75C0BD00FCBFD5 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 5832D9241C75C0BC00FCBFD5 /* Contents.json */; };
 		5832D94D1C75C0BD00FCBFD5 /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 5832D9251C75C0BC00FCBFD5 /* Icon-40.png */; };
@@ -40,6 +39,10 @@
 		5832D9681C75C0BD00FCBFD5 /* Icon-44@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5832D9421C75C0BD00FCBFD5 /* Icon-44@2x.png */; };
 		5832D9691C75C0BD00FCBFD5 /* Icon-86@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5832D9431C75C0BD00FCBFD5 /* Icon-86@2x.png */; };
 		5832D96A1C75C0BD00FCBFD5 /* Icon-98@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5832D9441C75C0BD00FCBFD5 /* Icon-98@2x.png */; };
+		589EC5941C7973430025F6C1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 589EC5911C7973430025F6C1 /* Default-568h@2x.png */; };
+		589EC5951C7973430025F6C1 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 589EC5921C7973430025F6C1 /* Default-667h@2x.png */; };
+		589EC5961C7973430025F6C1 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 589EC5931C7973430025F6C1 /* Default-736h@3x.png */; };
+		589EC5A91C7C8A1F0025F6C1 /* STARTbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 589EC5A81C7C8A1F0025F6C1 /* STARTbutton.png */; };
 		AF223C441A8C6B9100E3B3B9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF223C411A8C6B9100E3B3B9 /* Default-568h@2x.png */; };
 		AF223C451A8C6B9100E3B3B9 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF223C421A8C6B9100E3B3B9 /* Default-667h@2x.png */; };
 		AF223C461A8C6B9100E3B3B9 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF223C431A8C6B9100E3B3B9 /* Default-736h@3x.png */; };
@@ -66,7 +69,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5832D90F1C75A06500FCBFD5 /* chamomile-tea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "chamomile-tea.jpg"; sourceTree = "<group>"; };
 		5832D9111C75A0BC00FCBFD5 /* -shared-img-thumb-ELL54_kamomiru_TP_V.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "-shared-img-thumb-ELL54_kamomiru_TP_V.jpg"; sourceTree = "<group>"; };
 		5832D9241C75C0BC00FCBFD5 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		5832D9251C75C0BC00FCBFD5 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
@@ -99,6 +101,10 @@
 		5832D9421C75C0BD00FCBFD5 /* Icon-44@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-44@2x.png"; sourceTree = "<group>"; };
 		5832D9431C75C0BD00FCBFD5 /* Icon-86@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-86@2x.png"; sourceTree = "<group>"; };
 		5832D9441C75C0BD00FCBFD5 /* Icon-98@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-98@2x.png"; sourceTree = "<group>"; };
+		589EC5911C7973430025F6C1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		589EC5921C7973430025F6C1 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		589EC5931C7973430025F6C1 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
+		589EC5A81C7C8A1F0025F6C1 /* STARTbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = STARTbutton.png; sourceTree = "<group>"; };
 		AF223C411A8C6B9100E3B3B9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		AF223C421A8C6B9100E3B3B9 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
 		AF223C431A8C6B9100E3B3B9 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
@@ -206,6 +212,16 @@
 			path = AppIcon.appiconset;
 			sourceTree = "<group>";
 		};
+		589EC5901C7973430025F6C1 /* Defaults-master */ = {
+			isa = PBXGroup;
+			children = (
+				589EC5911C7973430025F6C1 /* Default-568h@2x.png */,
+				589EC5921C7973430025F6C1 /* Default-667h@2x.png */,
+				589EC5931C7973430025F6C1 /* Default-736h@3x.png */,
+			);
+			path = "Defaults-master";
+			sourceTree = "<group>";
+		};
 		AF223C401A8C6B9100E3B3B9 /* Defaults */ = {
 			isa = PBXGroup;
 			children = (
@@ -230,6 +246,7 @@
 		C7343E921A89986900D857EA = {
 			isa = PBXGroup;
 			children = (
+				589EC5901C7973430025F6C1 /* Defaults-master */,
 				C7343E9D1A89986900D857EA /* Quiz */,
 				C7343EB31A89986900D857EA /* QuizTests */,
 				C7343E9C1A89986900D857EA /* Products */,
@@ -248,7 +265,7 @@
 		C7343E9D1A89986900D857EA /* Quiz */ = {
 			isa = PBXGroup;
 			children = (
-				5832D90F1C75A06500FCBFD5 /* chamomile-tea.jpg */,
+				589EC5A81C7C8A1F0025F6C1 /* STARTbutton.png */,
 				5832D9111C75A0BC00FCBFD5 /* -shared-img-thumb-ELL54_kamomiru_TP_V.jpg */,
 				C7343EA01A89986900D857EA /* AppDelegate.swift */,
 				C7343EC01A89997C00D857EA /* QuizViewController.swift */,
@@ -377,13 +394,14 @@
 				C7343EA61A89986900D857EA /* Main.storyboard in Resources */,
 				AF223C441A8C6B9100E3B3B9 /* Default-568h@2x.png in Resources */,
 				5832D94D1C75C0BD00FCBFD5 /* Icon-40.png in Resources */,
-				5832D9101C75A06500FCBFD5 /* chamomile-tea.jpg in Resources */,
 				5832D9601C75C0BD00FCBFD5 /* iTunesArtwork@2x.png in Resources */,
 				5832D9551C75C0BD00FCBFD5 /* Icon-Small.png in Resources */,
 				5832D9651C75C0BD00FCBFD5 /* Icon-29@2x.png in Resources */,
 				5832D9581C75C0BD00FCBFD5 /* Icon-60.png in Resources */,
 				5832D95B1C75C0BD00FCBFD5 /* Icon-Small-50.png in Resources */,
+				589EC5A91C7C8A1F0025F6C1 /* STARTbutton.png in Resources */,
 				B101ABFB1B53797400919FB9 /* true.png in Resources */,
+				589EC5961C7973430025F6C1 /* Default-736h@3x.png in Resources */,
 				5832D94F1C75C0BD00FCBFD5 /* Icon-40@3x.png in Resources */,
 				B101ABFA1B53797400919FB9 /* start.png in Resources */,
 				C7343EAB1A89986900D857EA /* LaunchScreen.xib in Resources */,
@@ -396,6 +414,7 @@
 				5832D9541C75C0BD00FCBFD5 /* Icon-83.5@2x.png in Resources */,
 				5832D9661C75C0BD00FCBFD5 /* Icon-29@3x.png in Resources */,
 				AF223C461A8C6B9100E3B3B9 /* Default-736h@3x.png in Resources */,
+				589EC5941C7973430025F6C1 /* Default-568h@2x.png in Resources */,
 				5832D95F1C75C0BD00FCBFD5 /* iTunesArtwork.png in Resources */,
 				5832D9631C75C0BD00FCBFD5 /* Icon-24@2x.png in Resources */,
 				5832D96A1C75C0BD00FCBFD5 /* Icon-98@2x.png in Resources */,
@@ -407,6 +426,7 @@
 				5832D9521C75C0BD00FCBFD5 /* Icon-76.png in Resources */,
 				5832D9591C75C0BD00FCBFD5 /* Icon-72.png in Resources */,
 				5832D9671C75C0BD00FCBFD5 /* Icon-40@2x.png in Resources */,
+				589EC5951C7973430025F6C1 /* Default-667h@2x.png in Resources */,
 				5832D9621C75C0BD00FCBFD5 /* Contents.json in Resources */,
 				5832D95E1C75C0BD00FCBFD5 /* Icon@2x.png in Resources */,
 				5832D94C1C75C0BD00FCBFD5 /* Contents.json in Resources */,
@@ -560,7 +580,7 @@
 				INFOPLIST_FILE = Quiz/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.com.ueao.Quiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -575,7 +595,7 @@
 				INFOPLIST_FILE = Quiz/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.com.ueao.Quiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
