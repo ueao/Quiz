@@ -43,6 +43,8 @@
 		589EC5951C7973430025F6C1 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 589EC5921C7973430025F6C1 /* Default-667h@2x.png */; };
 		589EC5961C7973430025F6C1 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 589EC5931C7973430025F6C1 /* Default-736h@3x.png */; };
 		589EC5A91C7C8A1F0025F6C1 /* STARTbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 589EC5A81C7C8A1F0025F6C1 /* STARTbutton.png */; };
+		589EC6261C8983ED0025F6C1 /* StoryboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589EC6251C8983ED0025F6C1 /* StoryboardHelper.swift */; };
+		589EC6281C8984680025F6C1 /* 3.5inch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 589EC6271C8984680025F6C1 /* 3.5inch.storyboard */; };
 		AF223C441A8C6B9100E3B3B9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF223C411A8C6B9100E3B3B9 /* Default-568h@2x.png */; };
 		AF223C451A8C6B9100E3B3B9 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF223C421A8C6B9100E3B3B9 /* Default-667h@2x.png */; };
 		AF223C461A8C6B9100E3B3B9 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF223C431A8C6B9100E3B3B9 /* Default-736h@3x.png */; };
@@ -52,7 +54,6 @@
 		C7343EA11A89986900D857EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7343EA01A89986900D857EA /* AppDelegate.swift */; };
 		C7343EA61A89986900D857EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7343EA41A89986900D857EA /* Main.storyboard */; };
 		C7343EA81A89986900D857EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7343EA71A89986900D857EA /* Images.xcassets */; };
-		C7343EAB1A89986900D857EA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7343EA91A89986900D857EA /* LaunchScreen.xib */; };
 		C7343EB71A89986900D857EA /* QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7343EB61A89986900D857EA /* QuizTests.swift */; };
 		C7343EC11A89997C00D857EA /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7343EC01A89997C00D857EA /* QuizViewController.swift */; };
 		C7FE4DE01A8A17B9004C530A /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FE4DDF1A8A17B9004C530A /* ResultViewController.swift */; };
@@ -105,6 +106,8 @@
 		589EC5921C7973430025F6C1 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
 		589EC5931C7973430025F6C1 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
 		589EC5A81C7C8A1F0025F6C1 /* STARTbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = STARTbutton.png; sourceTree = "<group>"; };
+		589EC6251C8983ED0025F6C1 /* StoryboardHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardHelper.swift; sourceTree = "<group>"; };
+		589EC6271C8984680025F6C1 /* 3.5inch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = 3.5inch.storyboard; sourceTree = "<group>"; };
 		AF223C411A8C6B9100E3B3B9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		AF223C421A8C6B9100E3B3B9 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
 		AF223C431A8C6B9100E3B3B9 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
@@ -116,7 +119,6 @@
 		C7343EA01A89986900D857EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7343EA51A89986900D857EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7343EA71A89986900D857EA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C7343EAA1A89986900D857EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C7343EB01A89986900D857EA /* QuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7343EB51A89986900D857EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7343EB61A89986900D857EA /* QuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTests.swift; sourceTree = "<group>"; };
@@ -268,11 +270,12 @@
 				589EC5A81C7C8A1F0025F6C1 /* STARTbutton.png */,
 				5832D9111C75A0BC00FCBFD5 /* -shared-img-thumb-ELL54_kamomiru_TP_V.jpg */,
 				C7343EA01A89986900D857EA /* AppDelegate.swift */,
+				589EC6271C8984680025F6C1 /* 3.5inch.storyboard */,
 				C7343EC01A89997C00D857EA /* QuizViewController.swift */,
 				C7FE4DDF1A8A17B9004C530A /* ResultViewController.swift */,
 				C7343EA41A89986900D857EA /* Main.storyboard */,
 				C7343EA71A89986900D857EA /* Images.xcassets */,
-				C7343EA91A89986900D857EA /* LaunchScreen.xib */,
+				589EC6251C8983ED0025F6C1 /* StoryboardHelper.swift */,
 				B101ABF51B53796200919FB9 /* images */,
 				C7343E9E1A89986900D857EA /* Supporting Files */,
 			);
@@ -392,6 +395,7 @@
 				5832D9121C75A0BC00FCBFD5 /* -shared-img-thumb-ELL54_kamomiru_TP_V.jpg in Resources */,
 				5832D95C1C75C0BD00FCBFD5 /* Icon-Small-50@2x.png in Resources */,
 				C7343EA61A89986900D857EA /* Main.storyboard in Resources */,
+				589EC6281C8984680025F6C1 /* 3.5inch.storyboard in Resources */,
 				AF223C441A8C6B9100E3B3B9 /* Default-568h@2x.png in Resources */,
 				5832D94D1C75C0BD00FCBFD5 /* Icon-40.png in Resources */,
 				5832D9601C75C0BD00FCBFD5 /* iTunesArtwork@2x.png in Resources */,
@@ -404,7 +408,6 @@
 				589EC5961C7973430025F6C1 /* Default-736h@3x.png in Resources */,
 				5832D94F1C75C0BD00FCBFD5 /* Icon-40@3x.png in Resources */,
 				B101ABFA1B53797400919FB9 /* start.png in Resources */,
-				C7343EAB1A89986900D857EA /* LaunchScreen.xib in Resources */,
 				5832D9691C75C0BD00FCBFD5 /* Icon-86@2x.png in Resources */,
 				5832D9501C75C0BD00FCBFD5 /* Icon-60@2x.png in Resources */,
 				5832D9531C75C0BD00FCBFD5 /* Icon-76@2x.png in Resources */,
@@ -451,6 +454,7 @@
 				C7343EA11A89986900D857EA /* AppDelegate.swift in Sources */,
 				C7343EC11A89997C00D857EA /* QuizViewController.swift in Sources */,
 				5832D9611C75C0BD00FCBFD5 /* README.md in Sources */,
+				589EC6261C8983ED0025F6C1 /* StoryboardHelper.swift in Sources */,
 				C7FE4DE01A8A17B9004C530A /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -480,14 +484,6 @@
 				C7343EA51A89986900D857EA /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C7343EA91A89986900D857EA /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C7343EAA1A89986900D857EA /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
