@@ -14,22 +14,12 @@
                         <viewControllerLayoutGuide type="bottom" id="JHn-eV-eoZ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tc0-Vd-FXg">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="-shared-img-thumb-ELL54_kamomiru_TP_V.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="cFI-GP-0mw">
                                 <rect key="frame" x="-108" y="0.0" width="599" height="573"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ViA-nb-18z">
-                                <rect key="frame" x="23" y="435" width="274" height="94"/>
-                                <state key="normal" title="Button" image="STARTbutton.png">
-                                    <color key="titleColor" red="0.0" green="0.39392796140000003" blue="0.39392796140000003" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="mnM-8X-OwJ" kind="modal" id="X8E-n8-0Tz"/>
-                                </connections>
-                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="有川浩さんの小説からのクイズです！3つの選択肢の中から正しいと思う答えを１つ選んでください。" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="9PZ-kA-2I2">
                                 <rect key="frame" x="37" y="128" width="247" height="72"/>
                                 <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="0.39684806030000003" colorSpace="calibratedRGB"/>
@@ -43,10 +33,20 @@
                                 <color key="textColor" red="0.0" green="0.39392796140000003" blue="0.39392796140000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ViA-nb-18z">
+                                <rect key="frame" x="23" y="348" width="274" height="94"/>
+                                <state key="normal" title="Button" image="STARTbutton.png">
+                                    <color key="titleColor" red="0.0" green="0.39392796140000003" blue="0.39392796140000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="mnM-8X-OwJ" kind="modal" id="X8E-n8-0Tz"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.70490879790000005" green="0.96214546280000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b9V-fJ-6pl" sceneMemberID="firstResponder"/>
             </objects>
@@ -61,21 +61,21 @@
                         <viewControllerLayoutGuide type="bottom" id="DbD-W0-6JX"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="x3H-o3-E0B">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="-shared-img-thumb-ELL54_kamomiru_TP_V.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="nDu-hZ-Efl">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="問題文" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="TV4-bD-oup">
-                                <rect key="frame" x="37" y="55" width="245" height="178"/>
+                                <rect key="frame" x="38" y="28" width="245" height="114"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="textColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" tag="1" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xuk-ky-rG4">
-                                <rect key="frame" x="35" y="279" width="250" height="73"/>
+                                <rect key="frame" x="35" y="172" width="250" height="73"/>
                                 <color key="backgroundColor" white="1" alpha="0.73946659479999999" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <state key="normal" title="Button">
@@ -87,7 +87,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X7u-Wd-Wnt">
-                                <rect key="frame" x="35" y="474" width="250" height="64"/>
+                                <rect key="frame" x="33" y="377" width="250" height="64"/>
                                 <color key="backgroundColor" white="1" alpha="0.74240301720000001" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <state key="normal" title="Button">
@@ -99,7 +99,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x0T-GE-05f">
-                                <rect key="frame" x="35" y="379" width="250" height="69"/>
+                                <rect key="frame" x="35" y="277" width="250" height="69"/>
                                 <color key="backgroundColor" white="1" alpha="0.73677262929999998" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <state key="normal" title="Button">
@@ -114,7 +114,7 @@
                         <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="0.51632543099999995" colorSpace="calibratedRGB"/>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="choiceButtons1" destination="xuk-ky-rG4" id="aSs-SX-glH"/>
                         <outlet property="choiceButtons2" destination="x0T-GE-05f" id="DXI-jf-Ggj"/>
@@ -136,7 +136,7 @@
                         <viewControllerLayoutGuide type="bottom" id="saM-FD-Re1"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Keu-Y8-5Ez">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="-shared-img-thumb-ELL54_kamomiru_TP_V.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="QTc-AQ-dX2">
@@ -148,8 +148,14 @@
                                 <color key="textColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="結果" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eb6-zR-cAI">
+                                <rect key="frame" x="87" y="145" width="139" height="86"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="47"/>
+                                <color key="textColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="0.64630926720000004" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YBK-V8-7Ie">
-                                <rect key="frame" x="37" y="426" width="238" height="68"/>
+                                <rect key="frame" x="37" y="357" width="238" height="68"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="タイトルへ戻る">
@@ -160,16 +166,10 @@
                                     <segue destination="ena-NZ-uMR" kind="modal" id="49Z-kM-g5E"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="結果" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eb6-zR-cAI">
-                                <rect key="frame" x="87" y="145" width="139" height="86"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="47"/>
-                                <color key="textColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="0.64630926720000004" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="0.51632543099999995" colorSpace="calibratedRGB"/>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="resultLabel" destination="eb6-zR-cAI" id="kP1-b9-Itq"/>
                     </connections>

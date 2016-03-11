@@ -267,13 +267,13 @@
 		C7343E9D1A89986900D857EA /* Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				C7343EA41A89986900D857EA /* Main.storyboard */,
 				589EC5A81C7C8A1F0025F6C1 /* STARTbutton.png */,
 				5832D9111C75A0BC00FCBFD5 /* -shared-img-thumb-ELL54_kamomiru_TP_V.jpg */,
 				C7343EA01A89986900D857EA /* AppDelegate.swift */,
 				589EC6271C8984680025F6C1 /* 3.5inch.storyboard */,
 				C7343EC01A89997C00D857EA /* QuizViewController.swift */,
 				C7FE4DDF1A8A17B9004C530A /* ResultViewController.swift */,
-				C7343EA41A89986900D857EA /* Main.storyboard */,
 				C7343EA71A89986900D857EA /* Images.xcassets */,
 				589EC6251C8983ED0025F6C1 /* StoryboardHelper.swift */,
 				B101ABF51B53796200919FB9 /* images */,
