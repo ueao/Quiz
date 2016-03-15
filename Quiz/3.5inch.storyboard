@@ -27,12 +27,6 @@
                                 <fontDescription key="fontDescription" name="HarenosoraMincho" family="HarenosoraMincho" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="＊Hiro Arikawa FAN QUIZ＊" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="62b-ov-9BR">
-                                <rect key="frame" x="10" y="66" width="301" height="48"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
-                                <color key="textColor" red="0.0" green="0.39392796140000003" blue="0.39392796140000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ViA-nb-18z">
                                 <rect key="frame" x="23" y="348" width="274" height="94"/>
                                 <state key="normal" title="Button" image="STARTbutton.png">
@@ -43,6 +37,12 @@
                                     <segue destination="mnM-8X-OwJ" kind="modal" id="X8E-n8-0Tz"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="＊Hiro Arikawa STORY QUIZ＊" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hq9-Au-Wcu">
+                                <rect key="frame" x="9" y="71" width="339" height="49"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
+                                <color key="textColor" red="0.0" green="0.39392796140000003" blue="0.39392796140000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.70490879790000005" green="0.96214546280000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
